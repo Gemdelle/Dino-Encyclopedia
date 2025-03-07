@@ -5,6 +5,8 @@
 __pycache__/
 *.db
 *.sqlite3
+*.h5
+*.zip
 
 # Entornos virtuales
 env/
