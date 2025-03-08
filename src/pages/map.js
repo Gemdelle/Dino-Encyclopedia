@@ -1,16 +1,9 @@
 import "./map.css";
+import Nav from "../components/Nav/Nav";
 
 const Map = () => {
     return <div>
-        <nav>
-            <div class="profile-container"></div>
-            <div class="routes">
-                <a href="home.html">Home</a>
-                <a href="map.html">Map</a>
-                <a href="encyclopedia.html">Encyclopedia</a>
-                <a href="album.html">Album</a>
-            </div>
-        </nav>
+        <Nav/>
         <header>HEADER</header>
         <div class="era-map">
             <div class="user-character"></div>
