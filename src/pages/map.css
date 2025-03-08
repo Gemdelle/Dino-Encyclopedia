@@ -10,6 +10,13 @@
     background-repeat: no-repeat;
 }
 
+.map-background {
+    background-image: url(../../public/assets/img/map-background.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 .moving-sky {
     position: absolute;
     top: 0;

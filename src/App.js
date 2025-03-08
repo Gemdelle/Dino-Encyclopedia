@@ -5,8 +5,8 @@ import Home from './pages/home';
 import Encyclopedia from './pages/encyclopedia';
 import Album from './pages/album';
 import Map from "./pages/map";
-import TriassicInferior from "./pages/triassic_inferior";
-import TriassicMedio from "./pages/triassic_medio";
+import TriassicInferior from "./pages/triassic-inferior";
+import TriassicMedio from "./pages/triassic-medio";
 
 function App() {
   return (

@@ -1,44 +1,45 @@
 import "./map.css";
 import Nav from "../components/Nav/Nav";
+import {Link} from "react-router-dom";
 
 const Map = () => {
-    return <div>
+    return <div class="map-background">
         <Nav/>
         <header>HEADER</header>
         <div class="era-map">
             <div className="moving-sky"></div>
             <div class="user-character"></div>
             <div class="period-btn stage-1">
-                <a href="triassic-inferior.html">triassic-inferior</a>
+                <Link to="/triassic-inferior">triassic-inferior</Link>
                 <div class="period-btn-bg stage-1-bg"></div>
             </div>
             <div class="period-btn stage-2">
-                <a href="triassic-inferior.html">triassic-medium</a>
+                <Link to="/triassic-inferior">triassic-medium</Link>
                 <div class="period-btn-bg stage-1-bg"></div>
 
             </div>
             <div class="period-btn stage-3">
-                <a href="triassic-inferior.html">triassic-superior</a>
+                <Link to="/triassic-inferior">triassic-superior</Link>
                 <div class="period-btn-bg stage-1-bg"></div>
             </div>
             <div class="period-btn stage-4">
-                <a href="triassic-inferior.html">jurassic-inferior</a>
+                <Link to="/triassic-inferior">jurassic-inferior</Link>
                 <div class="period-btn-bg stage-2-bg"></div>
             </div>
             <div class="period-btn stage-5">
-                <a href="triassic-inferior.html">jurassic-medium</a>
+                <Link to="/triassic-inferior">jurassic-medium</Link>
                 <div class="period-btn-bg stage-2-bg"></div>
             </div>
             <div class="period-btn stage-6">
-                <a href="triassic-inferior.html">jurassic-superior</a>
+                <Link to="/triassic-inferior">jurassic-superior</Link>
                 <div class="period-btn-bg stage-2-bg"></div>
             </div>
             <div class="period-btn stage-7">
-                <a href="triassic-inferior.html">cretaceous-inferior</a>
+                <Link to="/triassic-inferior">cretaceous-inferior</Link>
                 <div class="period-btn-bg stage-3-bg"></div>
             </div>
             <div class="period-btn stage-8">
-                <a href="triassic-inferior.html">cretaceous-medium</a>
+                <Link to="/triassic-inferior">cretaceous-medium</Link>
                 <div class="period-btn-bg stage-3-bg"></div>
             </div>
         </div>
