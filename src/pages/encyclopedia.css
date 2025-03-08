@@ -41,12 +41,12 @@
 
 .arrow-previous {
     left: 3%;
-    background-image: url(../../public/img/arrow-previous.png);
+    background-image: url(../../public/assets/img/arrow-previous.png);
 }
 
 .arrow-next {
     right: 3%;
-    background-image: url(../../public/img/arrow-next.png);
+    background-image: url(../../public/assets/img/arrow-next.png);
 }
 
 .title {
@@ -74,7 +74,7 @@
     border: solid 2px black; */
     margin: 1vw;
 
-    background-image: url(../../public/img/frames/dinosaur-card-frame.png);
+    background-image: url(../../public/assets/img/frames/dinosaur-card-frame.png);
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -94,5 +94,5 @@
 }
 
 .dinosaur-1 {
-    background-image: url(../../public/img/dinosaurs/ankylosaurus.png);
+    background-image: url(../../public/assets/img/dinosaurs/ankylosaurus.png);
 }

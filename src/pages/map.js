@@ -6,6 +6,7 @@ const Map = () => {
         <Nav/>
         <header>HEADER</header>
         <div class="era-map">
+            <div className="moving-sky"></div>
             <div class="user-character"></div>
             <div class="period-btn stage-1">
                 <a href="triassic-inferior.html">triassic-inferior</a>

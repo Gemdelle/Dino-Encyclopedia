@@ -4,10 +4,34 @@
     background-color: lightcoral;
     margin: 0 auto;
     margin-top: 5vh;
-    background-image: url(../../public/img/map-bg.png);
+    background-image: url(../../public/assets/img/map-bg.png);
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+.moving-sky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../public/assets/img/moving-sky.png');
+    background-size: 50% 50%;
+    background-position: 0 0;
+    background-repeat: repeat;
+    animation: travel 28s infinite linear;
+    filter: blur(6px);
+    z-index: -1;
+}
+
+@keyframes travel {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -100% 0;
+    }
 }
 
 .user-character {
