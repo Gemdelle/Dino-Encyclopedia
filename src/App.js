@@ -1,9 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import Nav from './components/Nav/Nav';
-import Home from './pages/Home';
-import Encyclopedia from './pages/Encyclopedia';
-import Album from './pages/Album';
+import Home from './pages/home';
+import Encyclopedia from './pages/encyclopedia';
+import Album from './pages/album';
+import Map from "./pages/map";
+import TriassicInferior from "./pages/triassic_inferior";
+import TriassicMedio from "./pages/triassic_medio";
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/encyclopedia" element={<Encyclopedia />} />
         <Route path="/album" element={<Album />} />
+        <Route path="/map" element={<Map />} />
+        <Route path="/triassic-inferior" element={<TriassicInferior />} />
+        <Route path="/triassic-medio" element={<TriassicMedio />} />
       </Routes>
     </Router>
   );
